@@ -2,13 +2,26 @@ mail = ["@jcunniet","@PaulLampon","@Aziliz31","@ssoumier","@marionsouzeau","@gae
 
 puts  mail.count
 
+# Trie la liste de handle par ordre alphabétique.
 
+ puts mail.sort_by{|word| word.downcase}
+
+
+# Trie la liste de handle par taille des handle (les plus petits en premiers, les plus grands après)
+
+
+ puts mail.sort_by { |word| word.size
+  
+  
+  #une autre solution
 puts mail.min{|a,b| a.size <=> b.size }
-
+  
+# trouver les 5 charactéres
  381.times do |i|
   if mail[i].length == 5
       puts mail[i]
   end
 end
 
+############# à voir
 puts mail.sort_by{|word| word.downcase}
