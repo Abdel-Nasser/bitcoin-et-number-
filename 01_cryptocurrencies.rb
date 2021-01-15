@@ -12,5 +12,7 @@ bitcoin = ["Bitcoin", "Ethereum", "XRP", "Bitcoin Cash", "EOS", "Litecoin", "Car
 
 ensemble = Hash[bitcoin.zip(number)]
 
- puts ensemble
+#puts les2.max_by{|k,v| v.to_f}
+
+#puts ensemble
  
