@@ -23,5 +23,11 @@ puts mail.min{|a,b| a.size <=> b.size }
   end
 end
 
+# Quelle est la position dans l'array de la personne @epenser ?
+
+ puts mail.index("@epenser")
+
+
+
 ############# à voir
 puts mail.sort_by{|word| word.downcase}
